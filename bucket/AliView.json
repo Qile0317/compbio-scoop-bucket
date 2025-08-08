@@ -17,5 +17,9 @@
             "java/temurin-lts-jre",
             "java/temurin24-jre"
         ]
+    },
+    "checkver": {
+        "url": "https://ormbunkar.se/aliview/downloads/windows/",
+        "regex": "windows-version-([\\d.]+)/"
     }
 }
