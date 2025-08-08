@@ -1,9 +1,21 @@
 {
     "version": "1.30",
     "description": "Software for aligning viewing and editing dna/aminoacid sequences, intuitive, fast and lightweight.",
-    "notes": "Ensure Java version >= 8.0 is installed.",
     "homepage": "https://ormbunkar.se/aliview/",
     "license": "GPL-3.0-only",
     "url": "https://ormbunkar.se/aliview/downloads/windows/windows-version-1.30/without_installer_version/AliView.exe",
-    "bin": "AliView.exe"
+    "bin": "AliView.exe",
+    "notes": [
+        "AliView requires Java 8 or later to run.",
+        "Install any JRE/JDK you prefer from the 'java' bucket, e.g.:",
+        "  scoop bucket add java",
+        "  scoop install java/openjdk"
+    ],
+    "suggest": {
+        "Java Runtime Environment (>=8)": [
+            "java/openjdk",
+            "java/temurin-lts-jre",
+            "java/temurin24-jre"
+        ]
+    }
 }
