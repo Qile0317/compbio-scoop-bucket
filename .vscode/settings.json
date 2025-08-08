@@ -25,6 +25,8 @@
         "**/tmp": true
     },
     "cSpell.words": [
-        "checkver"
+        "autoupdate",
+        "checkver",
+        "temurin"
     ]
 }
