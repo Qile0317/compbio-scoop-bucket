@@ -21,5 +21,8 @@
     "checkver": {
         "url": "https://ormbunkar.se/aliview/downloads/windows/",
         "regex": "windows-version-([\\d.]+)/"
+    },
+    "autoupdate": {
+        "url": "https://ormbunkar.se/aliview/downloads/windows/windows-version-$version/without_installer_version/AliView.exe"
     }
 }
